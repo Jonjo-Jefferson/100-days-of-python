@@ -27,4 +27,4 @@ else:
     if add_pepperoni == "Y":
         total_bill += 3
 
-print(f"Your final bill is: {total_bill}")
+print(f"Your final bill is: ${total_bill}.")
