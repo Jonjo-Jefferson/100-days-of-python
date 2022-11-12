@@ -1,19 +1,16 @@
 # print("Hello World!\nHello World!")
 # print("Hello" + " " + "JJ")
 
-
 # print(len(input("What is your name? ")))
 
 # name = input("What is your name? ")
 # length = len(name)
 # print(length)
 
-
 # a = input("a: ")
 # b = input("b: ")
 
 # a, b = b, a
-
 
 # print("a: " + a)
 # print("b: " + b)
@@ -34,7 +31,6 @@
 # num1 = int(two_digit_number[0])
 # num2 = int(two_digit_number[1])
 # print(num1 + num2)
-
 
 # coding exercise BMI calculator
 
@@ -59,7 +55,6 @@
 # score += 1
 # score -= 1
 
-
 # f-string
 
 # score = 0
@@ -76,3 +71,18 @@
 # print(f"You have {days} days, {weeks} weeks, and {months} months left.")
 
 print(6 + 4 / 2 - (1 * 2))
+
+# name = "bacon"
+# dad = "pro ganja smoker"
+
+# print(f"My name is {name} and my dad is {dad}")
+
+# food_list = ["bacon", 23, "tomato", 32, "onion", "potato", "bagel"]
+
+name = input("What is your name? ")
+age = input("How old are you? ")
+
+print(type(age))
+calculate_age_in_weeks = int(age) * 52
+
+print(f"{name} you are {age} and in weeks that is {calculate_age_in_weeks}")
