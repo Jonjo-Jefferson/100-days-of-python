@@ -2,6 +2,7 @@ import random
 
 print("You enter the cat dungeon!")
 print("What is your name adventurer?")
+
 name = input()
 hp = 100
 gold = 0
