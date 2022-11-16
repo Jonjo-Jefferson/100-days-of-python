@@ -1,46 +1,21 @@
-import random
+# last_semester_gradebook = [["politics", 80], ["latin", 96], ["dance", 97],
+#                            ["architecture", 65]]
 
-print("Welcome to rock paper scissors!")
-print("What is your choice? 0 = Rock, 1 = Paper, 2 = Scissors")
+# # Your code below:
 
-user_choice = int(input())
-computer_choice = random.randint(0, 2)
-win = "You win!"
-lose = "You lose!"
-draw = "Its a draw!"
+# subjects = ["physics", "calculus", "poetry", "history"]
+# grades = [98, 97, 85, 88]
 
-if user_choice == 0:
-    print("You picked rock!")
-    if computer_choice == 0:
-        print("Computer picked rock!")
-        print(draw)
-    if computer_choice == 1:
-        print("Computer picked paper!")
-        print(lose)
-    if computer_choice == 2:
-        print("Computer picked scissors!")
-        print(win)
+# gradebook = [['physics', 98], ['calculus', 97], ['poetry', 85],
+#              ['history', 88]]
 
-if user_choice == 1:
-    print("You picked paper!")
-    if computer_choice == 0:
-        print("Computer picked rock!")
-        print(win)
-    if computer_choice == 1:
-        print("Computer picked paper!")
-        print(draw)
-    if computer_choice == 2:
-        print("Computer picked scissors!")
-        print(lose)
+# gradebook.append(["computer science", 100])
+# gradebook.append(["visual arts", 93])
 
-if user_choice == 2:
-    print("You picked scissors!")
-    if computer_choice == 0:
-        print("Computer picked rock!")
-        print(lose)
-    if computer_choice == 1:
-        print("Computer picked paper!")
-        print(win)
-    if computer_choice == 2:
-        print("Computer picked scissors!")
-        print(draw)
+# gradebook[2].remove(85)
+# gradebook[2].append("Pass")
+
+# full_gradebook = [last_semester_gradebook] + [gradebook]
+# print(full_gradebook)
+
+bacon = [1, -4, 7, 12]
