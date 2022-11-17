@@ -1,6 +1,5 @@
-def my_function():
-    print("Hello")
-    print("Bye")
+def greet():
+    print("hello world!")
 
 
-my_function()
+greet()
