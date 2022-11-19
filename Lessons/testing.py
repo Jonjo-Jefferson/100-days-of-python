@@ -1,21 +1,21 @@
-# last_semester_gradebook = [["politics", 80], ["latin", 96], ["dance", 97],
-#                            ["architecture", 65]]
+toppings = [
+    "pepperoni", "pineapple", "cheese", "sausage", "olives", "anchovies",
+    "mushrooms"
+]
 
-# # Your code below:
+prices = [2, 6, 1, 3, 2, 7, 2]
 
-# subjects = ["physics", "calculus", "poetry", "history"]
-# grades = [98, 97, 85, 88]
+num_two_dollar_slices = prices.count(2)
 
-# gradebook = [['physics', 98], ['calculus', 97], ['poetry', 85],
-#              ['history', 88]]
+num_pizzas = len(toppings)
 
-# gradebook.append(["computer science", 100])
-# gradebook.append(["visual arts", 93])
+print(f"We sell {num_pizzas} different kinds of pizza!")
 
-# gradebook[2].remove(85)
-# gradebook[2].append("Pass")
+pizza_and_prices = [[2, "pepperoni"], [6, "pineapple"], [1, "cheese"],
+                    [3, "sausage"], [2, "olives"], [7, "anchovies"],
+                    [2, "mushrooms"]]
 
-# full_gradebook = [last_semester_gradebook] + [gradebook]
-# print(full_gradebook)
+sorted = sorted(pizza_and_prices)
 
-bacon = [1, -4, 7, 12]
+cheapest_pizza = sorted[0]
+priciest_pizza = sorted[-1]
