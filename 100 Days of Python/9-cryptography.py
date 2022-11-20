@@ -1,6 +1,10 @@
 alphabet = [
     'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
-    'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+    'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd',
+    'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
+    't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
+    'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w',
+    'x', 'y', 'z'
 ]
 
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
@@ -14,4 +18,13 @@ def encrypt(text, shift):
         print(alphabet[encrypted_word])
 
 
-encrypt(text, shift)
+def decrypt(text, shift):
+    for letter in text:
+        encrypted_word = alphabet.index(letter) - shift
+        print(alphabet[encrypted_word])
+
+
+if direction == 'encode':
+    encrypt(text=text, shift=shift)
+else:
+    decrypt(text=text, shift=shift)
