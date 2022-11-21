@@ -1,21 +1,29 @@
-toppings = [
-    "pepperoni", "pineapple", "cheese", "sausage", "olives", "anchovies",
-    "mushrooms"
-]
+import random
 
-prices = [2, 6, 1, 3, 2, 7, 2]
+# toppings = [
+#     "pepperoni", "pineapple", "cheese", "sausage", "olives", "anchovies",
+#     "mushrooms"
+# ]
 
-num_two_dollar_slices = prices.count(2)
+# prices = [2, 6, 1, 3, 2, 7, 2]
 
-num_pizzas = len(toppings)
+# num_two_dollar_slices = prices.count(2)
 
-print(f"We sell {num_pizzas} different kinds of pizza!")
+# num_pizzas = len(toppings)
 
-pizza_and_prices = [[2, "pepperoni"], [6, "pineapple"], [1, "cheese"],
-                    [3, "sausage"], [2, "olives"], [7, "anchovies"],
-                    [2, "mushrooms"]]
+# print(f"We sell {num_pizzas} different kinds of pizza!")
 
-sorted = sorted(pizza_and_prices)
+# pizza_and_prices = [[2, "pepperoni"], [6, "pineapple"], [1, "cheese"],
+#                     [3, "sausage"], [2, "olives"], [7, "anchovies"],
+#                     [2, "mushrooms"]]
 
-cheapest_pizza = sorted[0]
-priciest_pizza = sorted[-1]
+# sorted = sorted(pizza_and_prices)
+
+# cheapest_pizza = sorted[0]
+# priciest_pizza = sorted[-1]
+
+random_words = ["apple", "pepperoni", "potato", "sausage"]
+i = random.randint(0, len(random_words) - 1)
+print(f"The random number is {i} - " + random_words[i])
+for word in random_words:
+    print(word)
